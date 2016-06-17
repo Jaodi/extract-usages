@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle extract-usages",
+        "command": "extract-usages:foldUnrelated"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Extract usages",
+          "submenu": [
+            {
+              "label": "Fold unrelated lines",
+              "command": "extract-usages:foldUnrelated"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
