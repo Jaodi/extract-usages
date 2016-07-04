@@ -1,7 +1,7 @@
 {
   "name": "extract-usages",
   "main": "./lib/extract-usages",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "View all usages of a variable in the editor window",
   "keywords": [],
   "activationCommands": {
